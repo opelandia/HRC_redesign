@@ -1,0 +1,28 @@
+title: Site
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  sitelogo:
+    label: Site Logo
+    type:  image
+    width: 1/2
+
+  sitealtlogo:
+    label: Site Alt Logo
+    type:  image
+    width: 1/2
+
+  author:
+    label: Author
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+
+  copyright:
+    label: Copyright
+    type:  textarea

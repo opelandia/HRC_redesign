@@ -1,0 +1,509 @@
+@charset "UTF-8";
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/*-------------------------------- type >*/
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, a  {
+  font-family: 'Open Sans', sans-serif;
+  /*font-size: inherit;*/
+}
+
+p{
+  color: white;
+  /*font-size: 8vh;*/
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 1.3vw
+}
+
+h3{
+  font-size: 1.2vw
+}
+
+a {
+  font-size: 1.5vw;
+}
+
+
+/*-------------------------------- header bar/log >*/
+
+.navBar {
+  display: flex;
+  position:sticky;
+  height: 9vh;
+  margin: 0%;
+  background-color: #313131;
+  width: 100vw;
+}
+
+.navBar P{
+  font-size: 1.5vw;
+}
+/*logo*/
+.logo-full {
+  display: flex;
+  width: 10vw;
+  margin-right: 0%;
+  margin-left: 10%;
+
+}
+
+.logoContainer a {
+  margin-right: 0%;
+}
+
+.logoContainer {
+  display: flex;
+  margin-left: 1.6%;
+  background-color: #FFDF1B;
+  align-items: center;
+  height: 10vh;
+  width: 22%;
+}
+
+.navigationMain {
+  display: flex;
+  width: 87vw;
+  height: 100%;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 3%;
+}
+
+.navigation p {
+  padding-left: 5%;
+}
+
+.donate {
+ display: flex;
+ background-color: red;
+ height: 9vh;
+ width: 10vw;
+ justify-content: center;
+ align-items: center;
+}
+
+.search {
+  display: flex;
+  height: 9vh;
+  width: 10vw;
+  margin-left: 8%;
+  align-items: center;
+  justify-content: center;
+  background-color: #4e4e4e;
+  margin-right: 7%;
+  margin-left: 0%;
+}
+
+
+.shop {
+  display: flex;
+  height: 9vh;
+  width: 10vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #4e4e4e;
+}
+
+.navBarEnd{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  width: 39.5%;
+}
+
+
+/*-------------------------------- body layout >*/
+
+body {
+  display: inherit;
+  width: 100vw;
+  margin: 0px;
+}
+
+.wrap {
+  display: flex;
+  position: absolute;
+}
+
+
+.main{
+  display: flex;
+}
+
+.introText {
+  display: flex;
+
+}
+/*-------------------------------- home Layout >*/
+
+.bodyArea{
+  margin: 0%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainStory{
+  display: flex;
+  width: 70%;
+  float: left;
+}
+
+.mainStory img{
+  display: flex;
+  width: 103%;
+  height: 110%;
+  margin-left: 2.6%;
+}
+
+.mainStoryTitle {
+  display: flex;
+  float: left;
+  position: absolute;
+  padding-left: 6%;
+  margin: 0%;
+  width: 50%;
+  text-shadow: 1px 1px 50px black;
+
+}
+
+.aside {
+  display: flex;
+  margin-right: 0%;
+  margin-left: 0%;
+  justify-content: flex-end;
+  flex-direction: column;
+  float: right;
+  width: 26.13vw;
+}
+
+.aside p {
+  color: black;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+
+.aside h2{
+  font-size: 1.7vw
+}
+
+.aside h3{
+  width: 24%;
+  margin: 4%;
+  color: white;
+  background-color: red;
+  padding: 3%;
+}
+
+.aside img {
+  display: flex;
+  width: 93%;
+  margin-left: 0px;
+}
+
+.mainStoryTitle a {
+  color: black;
+  padding:2%;
+  background-color: #FFDF1B;
+  text-decoration: none;
+}
+.aside nav a{
+  color: #1290d2;
+  font-size:1vw;
+  /*margin-left: 1%;*/
+}
+.youthLink {
+  padding-left: 4%;
+}
+/*------------------------------------ footer >*/
+
+.logoEnd{
+  position: inherit;
+  display: flex;
+  flex: end;
+  background-color: #313131;
+  width: 100%;
+  height:182px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLogo {
+  align-self: center;
+  width: 5%;
+  margin: 0 auto;
+  display: block;
+}
+
+/*--------------------------- Youth ---------- >*/
+
+.leftSideYouth {
+  margin-right: 0%;
+  width: 50vw;
+}
+
+.youthSplashImg {
+  display: flex;
+  width: 96.3vw;
+  margin-left: 3.2%;
+}
+
+.title {
+  display: flex;
+  position: absolute;
+  top: 8vh;
+  margin-left: 3%;
+  width: 45%;
+  word-wrap: normal;
+  text-shadow: 1px 1px 50px black;
+}
+
+.quote{
+  position: absolute;
+  width: 93vw;
+  top: 40vh;
+  padding: .5%;
+  padding-left: 5%;
+  text-shadow: 1px 1px 50px black;
+}
+
+.quote p {
+  padding-right: 5%;
+}
+
+.quote em{
+  font-size: 2.5vw;
+}
+.quote p:nth-child(2){
+  margin-top: 3vh;
+  /*margin-left: vw;*/
+}
+
+.callToAction{
+  margin-left: 2%;
+  align-items: center;
+  column-count: 2;
+  column-rule-width: .5px;
+  column-gap: 6vw;
+  width: 95vw;
+  margin-bottom: 15%;
+}
+
+.callToAction > p:nth-child(1) {
+  margin-top: 0%;
+}
+
+.actionTitle{
+  margin-left: 2.7vw;
+  margin-top: 15%;
+}
+
+.actionTitle P {
+  color: #313131;
+  font-size: 1em;
+}
+
+.callToAction p {
+  color: #313131;
+  font-size: 1em;
+  margin-left: .8vw;
+}
+
+.youthIntroHeader {
+  background-color: #313131;
+  width: 98vw;
+  display: flex;
+  /*margin-left: 1.6%;*/
+  padding-left: 2%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  padding-top: 15%;
+}
+
+.youthIntro{
+  align-items: center;
+  column-count: 2;
+  column-rule-style: solid;
+  column-rule-width: .5px;
+  column-gap: 6vw;
+  background-color: #313131;
+  width: 98vw;
+  /*margin-left: 1.6%;*/
+  padding: 1%;
+  padding-top: 0%;
+  padding-bottom: 15%;
+}
+
+.youthIntro h2 {
+  color: white;
+  column-span: all;
+}
+
+.youthIntro p {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.meth{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-bottom: 1%;
+  border-color:  #313131;
+}
+
+.meth p {
+  color: #313131;
+  padding-top: 2%;
+}
+
+.resourceNav{
+  flex-wrap: wrap;
+  }
+
+.showcase {
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media all and (min-width: 38em) {
+  .showcase-item {
+    display: inline-flex;
+    list-style: none;
+    margin: 1%;
+  }
+}
+
+.showcase-link {
+  display: block;
+  position: relative;
+}
+
+.showcase-caption {
+  position: absolute;
+  top: .75rem;
+  left: .75rem;
+  right: .75rem;
+  bottom: .75rem;
+  color: white;
+  letter-spacing: .05em;
+  opacity: 0;
+  text-shadow: 2px 2px 50px black;
+}
+
+.showcase-title {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.showcase-image {
+  flex-wrap: wrap;
+  display: block;
+  left: 0;
+  top: 0;
+}
+
+@media (any-hover: none) {
+  .showcase-caption {
+    /* The media query, enclosing these rules matches only
+       touch-screen devices that do not support hover due
+       to the lack of a pointing device like a mouse.
+       It does not work in all mobile browsers, but
+       progressively enhances the experience on supported
+       devices. Tested in Safari (iOS) 9.3 */
+    opacity: 1.0;
+    /* Reset will-change property to keep it from eating
+       up unneccessary resources on touch-only devices */
+    will-change: auto;
+  }
+  .showcase-title {
+    font-size: .85em;
+  }
+}
+
+/*--------------------------- sectionone---- >*/
+
+
+.mainImgOne {
+  margin-left: 1.7%;
+  margin-top: 0%;
+  float: left;
+  height:100%;
+}
+
+.areaOne p {
+  color: white;
+  font-size: 4vw;
+  margin-left: 1.7%;
+  margin-top: .5%;
+  margin-bottom: .5%;
+  width: 50vw;
+  position: absolute;
+  text-shadow: 2px 2px 50px black;
+  top: 8vh;
+}
+
+.areaOne h1{
+  margin: 0%;
+}
+
+.contentOne {
+  float: right;
+  width: 45vw;
+  padding-right: 2%;
+}
+
+.contentOne P {
+  color: #313131;
+}
+
+.sideOne {
+  /*display: flex;*/
+  /*position: inherit;*/
+  justify-content: center;
+  float: left;
+  width: 47.8vw;
+  margin-top: 0%;
+  padding-left: 1.8%;
+
+}
+
+.sideOne P{
+  width: 23vw;
+  color: #313131;
+  padding: 10%;
+  background-color: #f1f1f1;
+}
+
+/*--------------------------- sectiontwo---- >*/
+
+.areaTwo {
+
+}
+
+.contentTwo {
+
+}
+
+.sideTwo {
+
+}
+
+/*---------------------------  ---- >*/

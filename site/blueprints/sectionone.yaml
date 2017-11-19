@@ -1,0 +1,24 @@
+title: SectionOne
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  fields:
+   cover_image:
+     label: Cover images
+     type: image
+
+  text:
+    label: Text
+    type:  textarea
+
+  aside:
+    label: Aside
+    type:  textarea

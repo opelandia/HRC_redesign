@@ -1,0 +1,21 @@
+Title: Advocating for LGBTQ Equality | Human Rights Campaign
+
+----
+
+Author: Joshua Copeland
+
+----
+
+Description: HRC redesign with a focus on streamlining the accessibility of information
+
+----
+
+Copyright: © 2017–(date: Year)
+
+----
+
+Sitelogo: hrc-logo-full.png
+
+----
+
+Sitealtlogo: end.png

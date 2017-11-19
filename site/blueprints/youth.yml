@@ -1,0 +1,35 @@
+title: Youth
+
+files:
+  sortable: true
+
+pages: true
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Quote
+    type:  textarea
+
+  titletwo:
+    lable: Section Title
+    type:  textarea
+
+  text:
+    label: Call to Action
+    type:  textarea
+
+  titlethree:
+    lable: Section Title
+    type:  textarea
+
+  texttwo:
+    label: Introduction
+    type:  textarea
+
+  textthree:
+    label: Methods
+    type:  textarea

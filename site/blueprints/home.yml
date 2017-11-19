@@ -1,0 +1,28 @@
+title: Home
+
+files: true
+
+pages: false
+options:
+  preview: true
+  status: true
+  template: true
+  url: true
+  delete: true
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  text:
+    label: Text
+    type:  textarea
+
+  aside:
+    label: Aside
+    type:  textarea
