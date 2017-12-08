@@ -34,8 +34,8 @@
       <div class = 'donate'>
           <p>Donate</p>
       </div>
-      <div class = 'search'>
-          <p>🔍</p>
+      <div class = 'searchButton'>
+      
       </div>
     </div>
   </div>

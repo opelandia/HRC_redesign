@@ -1,0 +1,25 @@
+title: Search
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+
+  searchicon:
+    label: Search Icon 
+    type:  image
+    width: 1/2
+
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Quote
+    type:  textarea
+
+  text:
+    label: Call to Action
+    type:  textarea
