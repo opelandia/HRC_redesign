@@ -35,7 +35,9 @@
           <p>Donate</p>
       </div>
       <div class = 'search'>
-        <a href="https://hrcredesign.herokuapp.com/search" >🔍</a>
+      <a href="https://hrcredesign.herokuapp.com/search">
+        🔍
+        </a>
 
       </div>
     </div>
