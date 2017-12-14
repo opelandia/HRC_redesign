@@ -8,5 +8,7 @@ return function($site, $pages, $page) {
   return array(
     'query'   => $query,
     'results' => $results,
+    'pagination' => $results->pagination()
+
   );
 };

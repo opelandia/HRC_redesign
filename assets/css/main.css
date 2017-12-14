@@ -94,7 +94,7 @@ a {
  align-items: center;
 }
 
-.searchButton {
+.search {
   display: flex;
   height: 9vh;
   width: 10vw;
@@ -491,6 +491,13 @@ body {
   padding: 10%;
   background-color: #f1f1f1;
 }
+/*--------------------------- search section---- >*/
+.searchbar{
+  padding-left: 3.2%;
+  width: 100vw;
+  top: 5%;
+}
+
 
 /*--------------------------- sectiontwo---- >*/
 

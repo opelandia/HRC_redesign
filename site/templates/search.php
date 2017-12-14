@@ -1,14 +1,13 @@
 <?php snippet('header') ?>
+<forum class = "searchbar">
 
-<form>
-  <input type="search" name="q" value="<?php echo esc($query) ?>">
+  <input type="search" value="<?php echo esc($query) ?>">
   <input type="submit" value="Search">
-</form>
-
+</forum>
 <ul>
   <?php foreach($results as $result): ?>
   <li>
-    <a href="<?php echo $result->url() ?>">
+    <a class= "results" href="<?php echo $result->url() ?>">
       <?php echo $result->title()->html() ?>
     </a>
   </li>
