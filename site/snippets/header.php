@@ -34,7 +34,14 @@
       <div class = 'donate'>
           <p>Donate</p>
       </div>
-      <div class = 'finder'>
+      <div class = 'finder' style = "
+      height: 9vh;
+    width: 5vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #4e4e4e;
+    padding-left: 8%;
+    margin-right: 8%;">
       <a href="https://hrcredesign.herokuapp.com/search">
         🔍
 
